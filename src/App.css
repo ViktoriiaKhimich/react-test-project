@@ -1,0 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.continentsList { 
+  max-width: 500px;
+} 
+
+.listItem {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  /* background-color: #F7F7F7; */
+  margin-bottom: 10px;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
