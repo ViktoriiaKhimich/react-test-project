@@ -13,7 +13,7 @@ const CollapsibleComponent = ({ data }) => {
   return (
     <div className='continentsList'>
       {data.map(({ id, name }) =>
-        <span key={id} onClick={(id) => handleClick(id)} className='listItem' style={{ backgroundColor: showChildren ? '#DCDCDC	' : '#F7F7F7' }}>
+        <span key={id} onClick={handleClick} className='listItem' style={{ backgroundColor: showChildren ? '#DCDCDC	' : '#F7F7F7' }}>
           <p className='title'>{name}</p>
         </span>
       )}
